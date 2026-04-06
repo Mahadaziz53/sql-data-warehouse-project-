@@ -76,8 +76,8 @@ gen NVARCHAR (50)
 
 );	
 
-IF OBJECT_ID ('bronze.erp_px_cat_giv2','U') is not null
-DROP TABLE bronze.erp_px_cat_giv2; -- Drop table if exists
+IF OBJECT_ID ('bronze.erp_px_cat_g1v2','U') is not null
+DROP TABLE bronze.erp_px_cat_g1v2; -- Drop table if exists
 
 CREATE TABLE bronze.erp_px_cat_g1v2(
 id   NVARCHAR(50),
